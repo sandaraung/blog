@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Index</title>
-  <h1 align="center">Home Page</h1>
+	<title>Admin</title>
+  <h1 align="center">Admin Page</h1>
 
   <link rel="stylesheet" type="text/css" href=" {{ url('bootstrap/css/bootstrap.min.css') }}">
 </head>
@@ -10,7 +10,7 @@
   
   
   <div class="container" align="left">   
-  <a href="{{ url('posts/create') }}"><h2>Create Page</h2></a>
+  <a href="{{ url('posts/create') }}"><h2>Create</h2></a>
 
 
 
@@ -44,6 +44,10 @@
          <button class="btn btn-primary">Delete</button>
          </form>
          </div> 
+
+
+
+        
 
 
 

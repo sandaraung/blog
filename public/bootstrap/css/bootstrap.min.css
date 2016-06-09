@@ -6,7 +6,7 @@
 /*# sourceMappingURL=bootstrap.min.css.map */
 
 body {
-  background: url('../../images/heart.jpg') no-repeat;
+  background: #001111;
   background-size: cover;
   text-decoration: none;
 
@@ -27,9 +27,12 @@ p {
 h2 {
 
 	color: #ffee99;
+	text-align: right;
 	font-style: oblique;
+	position: relative;
 }
 h3 {
 
 	color: pink;
+
 }
